@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LuxurY InN</title>
+		<link rel="icon" href="Pics/icon.jpg" type="image/png">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="main.css">
+		<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		
+		<!--header-->
+		<header class="header" id="header">
+			<div class="head-top">
+				<img src="Pics/logo.png"class="site-name">
+				<div class="site-nav">
+					<span id="nav-btn">MENU<i class="fas fa-bars"></i></span>
+				</div>
+			</div>
+
+			<div class="head-bottom flex">
+				<h2>WE GIVE YOU A LEGENDARY WELCOME EVERYTIME YOU COME BACK</h2>
+				<p>Elegantly poised at the edge of Lake Leman with magnificent views of the famous Jet d'Eau and Mont Blanc,our beautiful boutique hotel showcases British charm with the finest Swiss hospitality.</p>
+				<button type="button" class="head-btn">GET STARTED</button>
+			</div>
+		</header>
+		<!--end of header-->
+
+		<!--side navbar-->
+		<div class="sidenav" id="sidenav">
+			<span class="cancel-btn" id="cancel-btn">
+				<i class="fas fa-times"></i>
+			</span>
+
+			<ul class="navbar">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#rooms">Rooms</a></li>
+				<li><a href="#customers">Customers</a></li>
+			</ul>
+			<button class="btn sign-up">Sign Up</button>
+			<button class="btn log-in">Log In</button>
+		</div>
+		<!--end of side navbar-->
+
+		<!--fullscreen modal-->
+		<div id="modal"></div>
+		<!--end of fullscreen  modal-->
+
+		<!--body content-->
+		<section class="services sec-width" id="services">
+			<div class="topic">
+				<h2>SERVICES</h2>
+			</div>
+			<div class="services-container">
+				<!--single services-->
+				<article class="service">
+					<div class="service-icon">
+						<span>
+							<i class="fas fa-utensils"></i>
+						</span>
+					</div>
+					<div class="service-content">
+						<h2>Food Service/Food Runner</h2>
+						<p>Our food is made fresh every day with ingredients. We bring the best taste in our cooking to make your day happier and healthier. No matter which season is going on but giving you extraordinary is a part of our service.The Guest will be greeted with eye contact and a warm welcome by us.</p>
+						<button type="button" class="btn">Know More</button>
+					</div>
+				</article>
+				<!--end of single service-->
+				<!--single services-->
+				<article class="service">
+					<div class="service-icon">
+						<span>
+							<i class="fas fa-swimming-pool"></i>
+						</span>
+					</div>
+					<div class="service-content">
+						<h2>Refreshment</h2>
+						<p>Standing in extensive grounds,Our Resort offers an impressive range of facilities and an unrivalled standard of personal service and sheer comfort.The magnificent grounds include a tranquil free-form outdoor swimming pool on the edge of a sandy beach and a lot of amusement themes .</p>
+						<button type="button" class="btn">Know More</button>
+					</div>
+				</article>
+				<!--end of single service-->
+				<!--single services-->
+				<article class="service">
+					<div class="service-icon">
+						<span>
+							<i class="fas fa-broom"></i>
+						</span>
+					</div>
+					<div class="service-content">
+						<h2>Housekeeping</h2>
+						<p>Nothing repels guests more than poor housekeeping.Our hotel’s leanliness immediately sets the tone for quality,while showing guests how much we care about you and your business.The service here allows guests to customize everything from the fragrance and lighting to the whole</p>
+						<button type="button" class="btn">Know More</button>
+					</div>
+				</article>
+				<!--end of single service-->
+				<!--single services-->
+				<article class="service">
+					<div class="service-icon">
+						<span>
+							<i class="fas fa-door-closed"></i>
+						</span>
+					</div>
+					<div class="service-content">
+						<h2>Room Security</h2>
+						<p>Security tends to be very good at Our Hotels. Often with cameras and special card access to the rooms and even when using the elevator to your floor. In the room, there will likely be safe as well. Although you don’t always see them there is often security guards on watch too.</p>
+						<button type="button" class="btn">Know More</button>
+					</div>
+				</article>
+				<!--end of single service-->
+			</div>
+		</section>
+		<div class="booking">
+			<form class="book-form">
+				<div class="form-item">
+					<label for=checkin-date>Check In Date:</label>
+					<input type="date" id="checkin-date">				
+				</div>
+				<div class="form-item">
+					<label for=checkout-date>Check Out Date:</label>
+					<input type="date" id="checkout-date">				
+				</div>
+				<div class="form-item">
+					<label for="adult">Adults</label>
+					<input type="number" min="1" value="1" id="adult">				
+				</div>	
+				<div class="form-item">
+					<label for="children">Children:</label>
+					<input type="number" min="1" value="1" id="adult">				
+				</div>
+				<div class="form-item">
+					<label for="rooms">Rooms:</label>
+					<input type="number" min="1" value="1" id="adult">				
+				</div>			
+				<div class="form-item">
+					<input type="submit" class="btn" value="Book Now">				
+				</div>
+			</form>
+		</div>
+
+		<section class="rooms sec-width" id="rooms">
+			<div class="topic">
+				<h2>Rooms</h2>
+			</div>
+			<div class="rooms-container">
+				<!--single room-->
+				<article class="room">
+					<div class="room-image">
+						<img src="Pics/pic-1.jpg"alt="room image">
+					</div>
+					<div class="room-text">
+						<h3>Deluxe Rooms</h3>
+						<ul>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Cozy Bedrooms
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								A Flatscreen Television	
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Best Guest Services
+							</li>
+						</ul>
+						<p>These rooms might be a bit bigger with slightly upgraded amenities or a nicer view. These rooms are typically equipped for groups who need more space, like a couple or small family. Free Wi-Fi without any restrictions and Special offers and packages to travellers like people travelling for work or for other events and celebrations.</p>
+						<p class="rate">
+							<span>$99.00/</span>Per Night
+						</p>
+						<button type="button" class="btn">book now</button>
+					</div>
+				</article>
+				<!--end of single room-->
+				<!--single room-->
+				<article class="room">
+					<div class="room-image">
+						<img src="Pics/pic-2.jpg"alt="room image">
+					</div>
+					<div class="room-text">
+						<h3>Luxury Rooms</h3>
+						<ul>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Lots of Amenities
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Customized Aromatherapy  							
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								24*7 High Speed Internet WiFi.
+							</li>
+						</ul>
+						<p>Our choice for this bedroom make it seem like a shining interior especially with the use of decorative chandelier and wall sconces that matches the headboard in curves/swirls and with complimentary access to the fitness centre, spa, salon, pools and other exclusive features of our hotel.</p>
+						<p class="rate">
+							<span>$299.00/</span>Per Night
+						</p>
+						<button type="button" class="btn">book now</button>
+					</div>
+				</article>
+				<!--end of single room-->
+				<!--single room-->
+				<article class="room">
+					<div class="room-image">
+						<img src="Pics/pic-3.jpg"alt="room image">
+					</div>
+					<div class="room-text">
+						<h3>Double-Double Rooms</h3>
+						<ul>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								24*7 High Speed Internet WiFi
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Pie Turndown Service
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								In-Room Arcade Games.
+							</li>
+						</ul>
+						<p>Our Double-Double rooms are elegantly furnished with handmade furniture include luxury en-suite facilities with complimentary amenities pack and with the finest purity over everything.It will have one or more bedrooms, a living space, and impressive amenities and decoration.</p>
+						<p class="rate">
+							<span>$99.00/</span>Per Night
+						</p>
+						<button type="button" class="btn">book now</button>
+					</div>
+				</article>
+				<!--end of single room-->
+				<!--single room-->
+				<article class="room">
+					<div class="room-image">
+						<img src="Pics/pic-4.jpg"alt="room image">
+					</div>
+					<div class="room-text">
+						<h3>Honey Moon Package</h3>
+						<ul>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Lovely and Peaceful Ambience
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Champagne Sabering and Aesthetic Flowers 
+							</li>
+							<li>
+								<i class="fas fa-arrow-alt-circle-right"></i>
+								Guitars and Sheet Music.
+							</li>
+						</ul>
+						<p>The room’s ambiance is made romantic along with all the modern amenities to make the stay of the couple a comfortable one.Our honeymoon rooms are assured to provide you with a memorable stay with the sensuous ambiance it encompasses with the ultimate post-wedding havens with no cheesy amenities in sight.</p>
+						<p class="rate">
+							<span>$199.00/</span>Per Night
+						</p>
+						<button type="button" class="btn">book now</button>
+					</div>
+				</article>
+				<!--end of single room-->				
+			</div>
+		</section>
+
+		<section class="customers"id="customers">
+			<div class="sec-width">
+				<div class="topic">
+					<h2>customers</h2>
+				</div>
+				<div class="customers-container">
+					<!--single customer-->
+					<div class="customer">
+						<div class="rating">
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+						</div>
+						<h3>We Loved it</h3>
+						<p>They made our days so amazing! The bathroom was nice and roomy. The pools were so nice and relaxing,we had a lot of fun there.</p> 
+						<img src="Pics/cus-1.jpg" alt="customer image">
+						<span class="customer-name">Allen Gonzalez,Australia</span>
+					</div>
+					<!--end of single customer-->
+					<!--single customer-->
+					<div class="customer">
+						<div class="rating">
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+						</div>
+						<h3>Comfortable Living</h3>
+						<p>Very open and spacious. Our room was spacious with all the amenities we needed.The food throughout the hotel is great as well.</p> 
+						<img src="Pics/cus-2.jpg" alt="customer image">
+						<span class="customer-name">Vidyakanth,India</span>
+					</div>
+					<!--end of single customer-->
+					<!--single customer-->
+					<div class="customer">
+						<div class="rating">
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+							<span><i class="fas fa-star"></i></span>
+						</div>
+						<h3>Nice Place</h3>
+						<p>The wedding packages here are an incredible experience.The rooms are comfortable and cozy, the staff were very friendly and professional.</p> 
+						<img src="Pics/cus-3.jpg" alt="customer image">	
+						<span class="customer-name">Lopez Mitchell Perez, USA </span>
+					</div>
+					<!--end of single customer-->
+				</div>
+			</div>
+		</section>
+		<!--end of body content-->
+
+		<!--footer-->
+		<footer class="footer">
+			<div class="footer-container">
+				<div>
+					<h2>About Us</h2>
+					<p>Fronted by an 8-acre lake with dancing water fountains, this luxury casino resort on The Strip is 2 miles from McCarran International Airport.</p>
+					<ul class="social-icons">
+						<li class="flex">
+							<i class="fa fa-twitter fa-2x"></i>
+						</li>
+						<li class="flex">
+							<i class="fa fa-facebook fa-2x"></i>
+						</li>
+						<li class="flex">
+							<i class="fa fa-instagram fa-2x"></i>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<h2>Useful Links</h2>
+					<a href="#">Blog</a>
+					<a href="#">Rooms</a>
+					<a href="#">Subscription</a>
+					<a href="#">Gift Card</a>
+				</div>
+
+				<div>
+					<h2>Privacy</h2>
+					<a href="#">Career</a>
+					<a href="#">About Us</a>
+					<a href="#">Contact Us</a>
+					<a href="#">Services</a>
+				</div>
+
+				<div>
+					<h2>Have A Question</h2>
+					<div class="contact-item">
+						<span>
+							<i class="fas fa-map-marker-alt"></i>
+						</span>
+						<span>
+							604,Milton street,Courgenay,Aisne,Paris,France
+						</span>
+					</div>
+					<div class="contact-item">
+						<span>
+							<i class="fas fa-phone-alt"></i>
+						</span>
+						<span>
+							+33 1 09 75 83 51
+						</span>
+					</div>
+					<div class="contact-item">
+						<span>
+							<i class="fas fa-envelope"></i>
+						</span>
+						<span>
+							query@domain.com
+						</span>
+					</div>
+				</div>			
+			</div>
+		</footer>
+		<!--end of footer-->
+		<script src="main.js"></script>
+	</body>  
+</html>
